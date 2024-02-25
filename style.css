@@ -1,0 +1,93 @@
+body {
+  background-color: #fafafa;
+}
+
+.navbar-atas {
+  margin: 0 5vw 0;
+}
+
+.item-nav {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* 300-800 */
+  font-style: normal;
+  color: #554f49;
+}
+
+.header {
+  /* background-image: url("./img/background.jpg"); */
+  background: url(./img/background.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500; /* 400-700*/
+  font-style: normal;
+  color: #fafafa;
+}
+
+.header .btn,
+.menu .btn {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300; /* 300-800 */
+  font-style: normal;
+  background-color: #dc4781;
+  color: #fafafa;
+}
+
+.pembelian {
+  background-color: #eaeaeaea;
+}
+
+.item-nav:hover {
+  color: black;
+}
+
+.borel-regular,
+.menu h1 {
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #554f49;
+}
+
+.borel {
+  font-family: "Borel", cursive;
+}
+
+.marriweather {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.contact {
+  background-color: #dc4781;
+  color: #fafafa;
+}
+
+.wave {
+  margin-bottom: -2px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 83vh;
+  }
+  .header .border {
+    border: none !important;
+  }
+
+  .lokasi {
+    border: none !important;
+  }
+  .menu > div > p {
+    text-align: justify;
+    width: 90vw !important;
+  }
+  .card {
+    width: 90vw !important;
+  }
+}
